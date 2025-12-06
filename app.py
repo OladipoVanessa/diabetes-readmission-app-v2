@@ -5,7 +5,7 @@ import xgboost as xgb
 
 # Load model
 model = xgb.Booster()
-model.load_model("model/safe_model.json")
+model.load_model("safe_model.json")
 
 st.title("Diabetes 30-Day Readmission Predictor")
 
